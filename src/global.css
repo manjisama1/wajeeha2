@@ -1,0 +1,300 @@
+/* ─── Wall doodles ──────────────────────────────────────────────── */
+.wall-doodles { position: absolute; inset: 0; pointer-events: none; z-index: 0; overflow: hidden; }
+.wall-doodle-spot { position: absolute; width: 36px; display: block; }
+.wall-doodle { display: block; width: 100%; height: auto; opacity: .42; }
+.scrapbook-app > header, .scrapbook-app > main { position: relative; z-index: 1; }
+
+/* ─── Cake Sequence ─────────────────────────────────────────────── */
+.cake-sequence { display: flex; flex-direction: column; align-items: center; gap: 1.4rem; }
+
+/* the whole clickable frame — image + overlaid elements */
+.cake-seq-frame {
+    position: relative;
+    display: block;          /* not inline-block — fills centered flow */
+    cursor: default;
+    border-radius: 0;        /* no box styling — just the image */
+    overflow: hidden;
+    /* no box-shadow — clean, no box around it */
+}
+.cake-seq-frame.cake-seq-tapable { cursor: pointer; }
+.cake-seq-tapable:active .cake-seq-img { transform: scale(0.98); }
+
+/* big image — centered, no border-radius box feel */
+.cake-seq-img {
+    display: block;
+    width: min(100%, 28rem);
+    height: auto;
+    border-radius: 0;       /* no rounded corners so no "box" appearance */
+    margin: 0 auto;         /* ensure centering when frame is block */
+    transition: transform 0.18s ease;
+}
+
+/* narration box — overlaid top-right INSIDE the image */
+.cake-narration-overlay {
+    position: absolute;
+    top: 0.85rem;
+    right: 0.85rem;
+    background: rgba(255,253,249,0.96);
+    border: 2px solid rgb(234,180,210);
+    border-radius: 1rem;
+    padding: 0.6rem 0.9rem;
+    max-width: 10rem;
+    box-shadow: 3px 4px 0 rgba(110,40,72,0.15);
+    transform: rotate(2deg);
+    pointer-events: none;
+    z-index: 2;
+}
+/* little downward tail pointing into image */
+.cake-narration-overlay::after {
+    content: '';
+    position: absolute;
+    bottom: -10px; left: 1.2rem;
+    border: 5px solid transparent;
+    border-top-color: rgb(234,180,210);
+}
+.cake-narration-text {
+    font-family: var(--font-hand);
+    font-size: 1.3rem;
+    color: rgb(100,40,70);
+    line-height: 1.35;
+    display: block;
+}
+
+/* tap hint bottom-right */
+.cake-tap-hint {
+    position: absolute; bottom: 0.65rem; right: 0.65rem;
+    background: rgba(255,253,249,0.93); color: rgb(157,53,104);
+    font-family: var(--font-hand); font-size: 1rem;
+    padding: 0.2rem 0.65rem; border-radius: 999px;
+    box-shadow: 2px 3px 0 rgba(110,40,72,0.1);
+    opacity: 0.85; pointer-events: none; z-index: 2;
+}
+
+/* big handwritten caption below image — cake steps only */
+.cake-seq-caption {
+    font-family: var(--font-hand);
+    font-size: 2rem;
+    color: rgb(157,53,104);
+    text-align: center;
+    letter-spacing: 0.01em;
+    text-shadow: 1px 2px 0 rgba(255,200,225,0.7);
+}
+
+/* dots + restart */
+.cake-seq-dots { display: flex; gap: 0.5rem; justify-content: center; }
+.cake-dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; background: rgb(234,214,225); transition: background 0.2s, transform 0.2s; }
+.cake-dot-active { background: rgb(157,53,104); transform: scale(1.35); }
+.cake-dot-past { background: rgb(203,169,187); }
+.cake-restart { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 1.1rem; border-radius: 999px; background: rgb(157,53,104); color: #fff; font-family: var(--font-hand); font-size: 1rem; cursor: pointer; border: none; }
+.cake-restart:hover { background: rgb(130,40,86); }
+
+/* ─── Wish Notes ────────────────────────────────────────────────── */
+.wishes-board {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+    gap: 1.4rem;
+    padding: 0.5rem 0.25rem;
+}
+.wish-note-card {
+    position: relative;
+    border: 2px solid;
+    border-radius: 0.75rem;
+    padding: 1.4rem 1.2rem 1.2rem;
+    box-shadow: 3px 5px 0 rgba(0,0,0,0.07);
+    transition: transform 0.15s ease;
+}
+.wish-note-card:hover { transform: translateY(-2px) rotate(0deg) !important; }
+.wish-note-star { position: absolute; top: 0.6rem; right: 0.7rem; font-size: 0.85rem; opacity: 0.5; color: var(--wish-accent,#7a2e52); }
+.wish-note-text { font-family: var(--font-hand); font-size: 1.15rem; line-height: 1.6; color: var(--wish-accent,#7a2e52); margin: 0; }
+.wish-note-heart { display: block; margin-top: 0.8rem; font-size: 1rem; opacity: 0.7; }
+
+/* ─── Letter Envelopes + Popup ──────────────────────────────────── */
+.letters-board { padding: 0.5rem 0.25rem; }
+.letters-intro { font-family: var(--font-hand); font-size: 1.1rem; color: rgb(112,66,89); text-align: center; margin-bottom: 1.5rem; line-height: 1.6; }
+.letters-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr)); gap: 2rem; padding: 0.5rem; }
+
+/* envelope card */
+.letter-envelope {
+    background: rgb(255,253,249);
+    border: 1.5px solid rgb(234,214,225);
+    border-radius: 0.75rem;
+    overflow: hidden;
+    box-shadow: 3px 5px 0 rgba(110,40,72,0.1);
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    display: flex; flex-direction: column;
+}
+.letter-envelope:hover { box-shadow: 5px 8px 0 rgba(110,40,72,0.16); transform: translateY(-2px) rotate(0deg) !important; }
+
+/* envelope flap */
+.letter-flap {
+    display: flex; align-items: center; justify-content: center; gap: 0.5rem;
+    padding: 0.9rem 1rem;
+    background: linear-gradient(135deg, rgb(253,220,238) 0%, rgb(253,242,249) 100%);
+    border-bottom: 1.5px dashed rgb(234,180,210);
+    pointer-events: none;
+}
+.letter-flap-heart { font-size: 1.4rem; color: rgb(157,53,104); }
+.letter-seal { font-size: 0.72rem; font-family: var(--font-hand); background: rgb(157,53,104); color: #fff; padding: 0.15rem 0.55rem; border-radius: 999px; }
+
+/* envelope preview body */
+.letter-body { padding: 1rem 1.1rem 1.1rem; display: flex; flex-direction: column; gap: 0.35rem; flex: 1; }
+.letter-number { font-family: var(--font-hand); font-size: 0.8rem; color: rgb(157,53,104); opacity: 0.6; letter-spacing: 0.08em; }
+.letter-title { font-family: var(--font-display); font-size: 1.1rem; color: rgb(62,16,41); line-height: 1.35; margin: 0.1rem 0 0; }
+.letter-tap-hint { margin-top: auto; padding-top: 0.75rem; font-family: var(--font-hand); font-size: 0.9rem; color: rgb(157,53,104); opacity: 0.7; }
+
+/* ── popup overlay ── */
+.letter-overlay {
+    position: fixed; inset: 0; z-index: 200;
+    background: rgba(62,16,41,0.55);
+    backdrop-filter: blur(3px);
+    display: flex; align-items: center; justify-content: center;
+    padding: 1rem;
+    animation: fade-in 0.2s ease;
+}
+@keyframes fade-in { from { opacity: 0 } to { opacity: 1 } }
+
+/* the letter paper popup */
+.letter-popup {
+    position: relative;
+    background: rgb(255,253,247);
+    /* lined paper texture via repeating gradient */
+    background-image:
+        repeating-linear-gradient(
+            to bottom,
+            transparent 0px,
+            transparent 31px,
+            rgb(234,214,225) 31px,
+            rgb(234,214,225) 32px
+        );
+    background-size: 100% 32px;
+    border: 2px solid rgb(220,180,205);
+    border-radius: 1rem;
+    max-width: 36rem;
+    width: 100%;
+    max-height: 88vh;
+    overflow-y: auto;
+    box-shadow: 6px 12px 0 rgba(110,40,72,0.18), 0 0 0 4px rgba(253,220,238,0.4);
+    animation: popup-rise 0.22s ease;
+}
+@keyframes popup-rise { from { opacity: 0; transform: translateY(12px) scale(0.97) } to { opacity: 1; transform: none } }
+
+/* top decorative strip */
+.letter-popup-top {
+    display: flex; justify-content: center; gap: 1.2rem;
+    padding: 0.85rem 1rem 0.6rem;
+    font-size: 1.1rem;
+    color: rgb(200,120,160);
+    background: linear-gradient(to bottom, rgb(253,235,245), transparent);
+    border-radius: 1rem 1rem 0 0;
+    border-bottom: 1px dashed rgb(234,180,210);
+}
+
+/* close button */
+.letter-popup-close {
+    position: absolute; top: 0.6rem; right: 0.75rem;
+    background: none; border: none; cursor: pointer;
+    font-size: 1.1rem; color: rgb(157,53,104);
+    opacity: 0.7; font-family: var(--font-hand);
+    padding: 0.25rem 0.5rem;
+    transition: opacity 0.15s;
+}
+.letter-popup-close:hover { opacity: 1; }
+
+/* letter content */
+.letter-popup-body { padding: 1.5rem 2rem 1rem; }
+.letter-popup-number { font-family: var(--font-hand); font-size: 0.85rem; color: rgb(157,53,104); opacity: 0.6; letter-spacing: 0.1em; margin: 0 0 0.5rem; }
+.letter-popup-title { font-family: var(--font-display); font-size: 1.5rem; color: rgb(62,16,41); line-height: 1.3; margin: 0 0 0.5rem; }
+.letter-popup-divider { font-family: var(--font-hand); font-size: 1.1rem; color: rgb(200,140,170); text-align: center; margin: 0.75rem 0 1rem; }
+.letter-popup-content { font-family: var(--font-hand); font-size: 1.2rem; line-height: 2rem; color: rgb(62,16,41); }
+.letter-popup-content p { margin: 0 0 0.25rem; }
+.letter-popup-footer { text-align: center; font-size: 1.5rem; color: rgb(200,120,160); padding: 0.75rem 1rem 1.25rem; }
+
+/* ─── This Is Us ────────────────────────────────────────────────── */
+.this-us-section {}
+.this-us-layout {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 2rem 1rem 3rem;
+}
+/* big polaroid */
+.this-us-polaroid {
+    position: relative;
+    background: rgb(255,253,249);
+    padding: 1rem 1rem 2.5rem;
+    width: min(100%, 34rem);        /* bigger */
+    box-shadow: 5px 12px 0 rgba(110,40,72,0.15), 0 0 0 1px rgba(220,180,205,0.4);
+    transform: rotate(-1.5deg);
+}
+.this-us-img { display: block; width: 100%; height: auto; object-fit: cover; }
+.this-us-caption {
+    display: block; margin-top: 0;
+    padding: 1rem 0.5rem 0.3rem;
+    text-align: center;
+    font-family: var(--font-hand);
+    font-size: 1.6rem;
+    color: rgb(100,40,70);
+}
+
+/* tape strips on corners */
+.this-us-tape {
+    position: absolute;
+    width: 3.5rem; height: 1.1rem;
+    background: rgba(253,220,238,0.75);
+    border: 1px solid rgba(234,180,210,0.5);
+    top: -0.55rem;
+    z-index: 1;
+}
+.this-us-tape-left  { left:  1.5rem; transform: rotate(-3deg); }
+.this-us-tape-right { right: 1.5rem; transform: rotate(4deg); }
+
+/* floating sticky notes around the polaroid */
+.this-us-note {
+    position: absolute;
+    background: rgb(255,248,230);
+    border: 1.5px solid rgb(245,200,120);
+    border-radius: 0.4rem;
+    padding: 0.7rem 0.9rem 0.6rem;
+    font-family: var(--font-hand);
+    font-size: 1rem;
+    color: rgb(120,80,20);
+    box-shadow: 2px 4px 0 rgba(0,0,0,0.07);
+    max-width: 8rem;
+    line-height: 1.4;
+}
+.this-us-note .paper-tape {
+    display: block;
+    width: 2.2rem; height: 0.8rem;
+    background: rgba(253,220,180,0.75);
+    border: 1px solid rgba(240,190,100,0.4);
+    margin: 0 auto 0.4rem;
+}
+.this-us-note-a {
+    bottom: 1.5rem; left: -1rem;
+    transform: rotate(-6deg);
+}
+.this-us-note-b {
+    top: 1.5rem; right: -1rem;
+    transform: rotate(5deg);
+    background: rgb(240,255,245);
+    border-color: rgb(140,210,160);
+    color: rgb(30,100,60);
+}
+.this-us-note-b .paper-tape { background: rgba(160,230,180,0.75); border-color: rgba(100,200,130,0.4); }
+
+/* ─── Legacy (unused but kept to avoid breaking inline styles) ─── */
+.cake-story-image { position: relative; }
+.cake-restart { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 1.1rem; border-radius: 999px; background: rgb(157,53,104); color: #fff; font-family: var(--font-hand); font-size: 1rem; cursor: pointer; border: none; }
+.cake-restart:hover { background: rgb(130,40,86); }
+
+/* ─── PDF download button ───────────────────────────────────────── */
+.pdf-download-btn {
+    display: inline-flex; align-items: center; gap: 0.4rem;
+    padding: 0.55rem 1.3rem;
+    background: rgb(62,16,41); color: #fff;
+    font-family: var(--font-hand); font-size: 1.05rem;
+    border: none; border-radius: 999px; cursor: pointer;
+    transition: background 0.15s;
+}
+.pdf-download-btn:hover { background: rgb(91,33,68); }
