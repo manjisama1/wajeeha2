@@ -1,50 +1,835 @@
 [
   {
     "id": "0",
-    "text": "The universe has many stars, but in my universe there is only one.",
+    "text": "If you ever feel invisible, remember I notice everything about you.",
     "color": "note-color-0",
     "tilt": "note-tilt-0"
   },
   {
     "id": "1",
-    "text": "If I had to be born as food, I would choose something sweet.",
+    "text": "You're a good person. Never let a bad day tell you otherwise.",
     "color": "note-color-1",
     "tilt": "note-tilt-1"
   },
   {
     "id": "2",
-    "text": "You make ordinary days feel a little less ordinary.",
+    "text": "Tomorrow is a new page and I'll be on it with you.",
     "color": "note-color-2",
     "tilt": "note-tilt-2"
   },
   {
     "id": "3",
-    "text": "Emergency reminder: you are very, very loved.",
+    "text": "You make me want to be kinder.",
     "color": "note-color-3",
     "tilt": "note-tilt-3"
   },
   {
     "id": "4",
-    "text": "Please accept this tiny note as a hug.",
-    "color": "note-color-0",
+    "text": "There's nobody else I'd rather argue with and make up with.",
+    "color": "note-color-4",
     "tilt": "note-tilt-4"
   },
   {
     "id": "5",
-    "text": "I hope something nice surprises you today.",
-    "color": "note-color-1",
+    "text": "If today is hard, I'll be here tomorrow too, and the day after that.",
+    "color": "note-color-0",
     "tilt": "note-tilt-0"
   },
   {
     "id": "6",
-    "text": "You are allowed to take up all the space in my heart.",
-    "color": "note-color-2",
+    "text": "I'm a better person because I know you.",
+    "color": "note-color-1",
     "tilt": "note-tilt-1"
   },
   {
     "id": "7",
-    "text": "Sweets taste better when you are happy.",
-    "color": "note-color-3",
+    "text": "You deserve the kind of love that feels like a warm hug.",
+    "color": "note-color-2",
     "tilt": "note-tilt-2"
+  },
+  {
+    "id": "8",
+    "text": "Every time I see a full moon I wonder if you're looking at it too.",
+    "color": "note-color-3",
+    "tilt": "note-tilt-3"
+  },
+  {
+    "id": "9",
+    "text": "Can we stay friends until we're ninety?",
+    "color": "note-color-4",
+    "tilt": "note-tilt-4"
+  },
+  {
+    "id": "10",
+    "text": "You are the first person I want to tell good news to.",
+    "color": "note-color-0",
+    "tilt": "note-tilt-0"
+  },
+  {
+    "id": "11",
+    "text": "When I think of being happy, I think of us laughing for no reason.",
+    "color": "note-color-1",
+    "tilt": "note-tilt-1"
+  },
+  {
+    "id": "12",
+    "text": "You're more than your bad days. You're my best days.",
+    "color": "note-color-2",
+    "tilt": "note-tilt-2"
+  },
+  {
+    "id": "13",
+    "text": "Missing you is just the price of having someone this nice to miss.",
+    "color": "note-color-3",
+    "tilt": "note-tilt-3"
+  },
+  {
+    "id": "14",
+    "text": "Sorry i don't wanna be mean but, You're sweeter than anything on your plate today.",
+    "color": "note-color-4",
+    "tilt": "note-tilt-4"
+  },
+  {
+    "id": "15",
+    "text": "There's a saying that the time you spend on someone is what makes them important. We've spent a lot, so you're very important.",
+    "color": "note-color-0",
+    "tilt": "note-tilt-0"
+  },
+  {
+    "id": "16",
+    "text": "One day we'll sit somewhere with coffee and talk for hours with no phone in hand.",
+    "color": "note-color-1",
+    "tilt": "note-tilt-1"
+  },
+  {
+    "id": "17",
+    "text": "I hope your mornings feel refreshing.",
+    "color": "note-color-2",
+    "tilt": "note-tilt-2"
+  },
+  {
+    "id": "18",
+    "text": "My favourite season is wherever you are.",
+    "color": "note-color-3",
+    "tilt": "note-tilt-3"
+  },
+  {
+    "id": "19",
+    "text": "You're stronger than you think, but you don't have to prove it.",
+    "color": "note-color-4",
+    "tilt": "note-tilt-4"
+  },
+  {
+    "id": "20",
+    "text": "When life gets loud, come to me. I'll keep it quiet for you.",
+    "color": "note-color-0",
+    "tilt": "note-tilt-0"
+  },
+  {
+    "id": "21",
+    "text": "I'm not good with words, so I'll just say thank you for being you.",
+    "color": "note-color-1",
+    "tilt": "note-tilt-1"
+  },
+  {
+    "id": "22",
+    "text": "Bad days don't last, but people like you do.",
+    "color": "note-color-2",
+    "tilt": "note-tilt-2"
+  },
+  {
+    "id": "23",
+    "text": "Sorry in advance for every time I'm annoying. I just love talking to you.",
+    "color": "note-color-3",
+    "tilt": "note-tilt-3"
+  },
+  {
+    "id": "24",
+    "text": "The best part of my day is when you say \"manjiii\".",
+    "color": "note-color-4",
+    "tilt": "note-tilt-4"
+  },
+  {
+    "id": "25",
+    "text": "Be your own kind of person. I like that kind best.",
+    "color": "note-color-0",
+    "tilt": "note-tilt-0"
+  },
+  {
+    "id": "26",
+    "text": "When two people care about each other, no distance is too long.",
+    "color": "note-color-1",
+    "tilt": "note-tilt-1"
+  },
+  {
+    "id": "27",
+    "text": "I want to hear about your day, even the small boring parts.",
+    "color": "note-color-2",
+    "tilt": "note-tilt-2"
+  },
+  {
+    "id": "28",
+    "text": "If I get one wish today, I'll use it to make your day easier.",
+    "color": "note-color-3",
+    "tilt": "note-tilt-3"
+  },
+  {
+    "id": "29",
+    "text": "You're somebody's whole good day. Mine.",
+    "color": "note-color-4",
+    "tilt": "note-tilt-4"
+  },
+  {
+    "id": "30",
+    "text": "I'm so lucky our paths crossed.",
+    "color": "note-color-0",
+    "tilt": "note-tilt-0"
+  },
+  {
+    "id": "31",
+    "text": "You are enough on your lowest day and on your highest day.",
+    "color": "note-color-1",
+    "tilt": "note-tilt-1"
+  },
+  {
+    "id": "32",
+    "text": "I'll cheer for you even when you think nobody's watching.",
+    "color": "note-color-2",
+    "tilt": "note-tilt-2"
+  },
+  {
+    "id": "33",
+    "text": "Whatever you become, I'll be the loudest one clapping.",
+    "color": "note-color-3",
+    "tilt": "note-tilt-3"
+  },
+  {
+    "id": "34",
+    "text": "I like the person I am when I'm talking to you.",
+    "color": "note-color-4",
+    "tilt": "note-tilt-4"
+  },
+  {
+    "id": "35",
+    "text": "No body tolerates me like you do.",
+    "color": "note-color-0",
+    "tilt": "note-tilt-0"
+  },
+  {
+    "id": "36",
+    "text": "Even on my busiest day, there's always a little room in my head for you.",
+    "color": "note-color-1",
+    "tilt": "note-tilt-1"
+  },
+  {
+    "id": "37",
+    "text": "If I could give you anything, I'd give you the ability to see yourself the way I see you.",
+    "color": "note-color-2",
+    "tilt": "note-tilt-2"
+  },
+  {
+    "id": "38",
+    "text": "Whenever it rains, I picture you looking out of your window.",
+    "color": "note-color-3",
+    "tilt": "note-tilt-3"
+  },
+  {
+    "id": "39",
+    "text": "Bad days end. I'll stay until yours does.",
+    "color": "note-color-4",
+    "tilt": "note-tilt-4"
+  },
+  {
+    "id": "40",
+    "text": "YOU MATTER A LOT TO ME. Just wanted to say it out loud.",
+    "color": "note-color-0",
+    "tilt": "note-tilt-0"
+  },
+  {
+    "id": "41",
+    "text": "If I had to be born as a drink, I'd be your iced vanilla coffee so you'd pick me every time.",
+    "color": "note-color-1",
+    "tilt": "note-tilt-1"
+  },
+  {
+    "id": "42",
+    "text": "You're my favourite person to say \"guess what\" to.",
+    "color": "note-color-2",
+    "tilt": "note-tilt-2"
+  },
+  {
+    "id": "43",
+    "text": "My moonbeam, even a bad day looks softer with your name on my screen. I love your name.",
+    "color": "note-color-3",
+    "tilt": "note-tilt-3"
+  },
+  {
+    "id": "44",
+    "text": "It's okay to be a work in progress. So am I.",
+    "color": "note-color-4",
+    "tilt": "note-tilt-4"
+  },
+  {
+    "id": "45",
+    "text": "I still smile at things you said years ago.",
+    "color": "note-color-0",
+    "tilt": "note-tilt-0"
+  },
+  {
+    "id": "46",
+    "text": "Take a deep breath. Now another one. Good job, I'm proud.",
+    "color": "note-color-1",
+    "tilt": "note-tilt-1"
+  },
+  {
+    "id": "47",
+    "text": "You're my safe place. I hope I'm yours.",
+    "color": "note-color-2",
+    "tilt": "note-tilt-2"
+  },
+  {
+    "id": "48",
+    "text": "Thank you for being patient with me when I'm being a bhondu.",
+    "tilt": "note-tilt-3"
+  },
+  {
+    "id": "49",
+    "text": "Wherever you go, I hope there's good weather and better people.",
+    "color": "note-color-4",
+    "tilt": "note-tilt-4"
+  },
+  {
+    "id": "50",
+    "text": "You're the reason I believe good people still exist.",
+    "color": "note-color-0",
+    "tilt": "note-tilt-0"
+  },
+  {
+    "id": "51",
+    "text": "Keep going forward!",
+    "color": "note-color-1",
+    "tilt": "note-tilt-1"
+  },
+  {
+    "id": "52",
+    "text": "Be gentle with yourself, the way you are with everyone else.",
+    "color": "note-color-2",
+    "tilt": "note-tilt-2"
+  },
+  {
+    "id": "53",
+    "text": "If the moon is out tonight, look at it. I'll be looking too.",
+    "color": "note-color-3",
+    "tilt": "note-tilt-3"
+  },
+  {
+    "id": "54",
+    "text": "Let's keep making memories.",
+    "color": "note-color-4",
+    "tilt": "note-tilt-4"
+  },
+  {
+    "id": "55",
+    "text": "It's okay if you bloom late. Tulips take their time and look how pretty they are.",
+    "color": "note-color-0",
+    "tilt": "note-tilt-0"
+  },
+  {
+    "id": "56",
+    "text": "Sometimes I just want to say your name for no reason. Wajeeha. See?",
+    "color": "note-color-1",
+    "tilt": "note-tilt-1"
+  },
+  {
+    "id": "57",
+    "text": "I think about meeting you more than I tell you.",
+    "color": "note-color-2",
+    "tilt": "note-tilt-2"
+  },
+  {
+    "id": "58",
+    "text": "There's no one I'd rather be silly with.",
+    "color": "note-color-3",
+    "tilt": "note-tilt-3"
+  },
+  {
+    "id": "59",
+    "text": "I don't know how to say it better, so: I really care about you.",
+    "color": "note-color-4",
+    "tilt": "note-tilt-4"
+  },
+  {
+    "id": "60",
+    "text": "It's alright to start over as many times as you want.",
+    "color": "note-color-0",
+    "tilt": "note-tilt-0"
+  },
+  {
+    "id": "61",
+    "text": "If you were a dessert, you'd be the last bite I save for myself.",
+    "color": "note-color-1",
+    "tilt": "note-tilt-1"
+  },
+  {
+    "id": "62",
+    "text": "Everything feels like it's going to be okay when you're around.",
+    "color": "note-color-2",
+    "tilt": "note-tilt-2"
+  },
+  {
+    "id": "63",
+    "text": "You're the kind of person I wish I'd met sooner.",
+    "color": "note-color-3",
+    "tilt": "note-tilt-3"
+  },
+  {
+    "id": "64",
+    "text": "Have a sweet day, you sweet person.",
+    "color": "note-color-4",
+    "tilt": "note-tilt-4"
+  },
+  {
+    "id": "65",
+    "text": "Whoever hurt you didn't know your worth. I do.",
+    "color": "note-color-0",
+    "tilt": "note-tilt-0"
+  },
+  {
+    "id": "66",
+    "text": "You're my \"everything will be okay\" in human form.",
+    "color": "note-color-1",
+    "tilt": "note-tilt-1"
+  },
+  {
+    "id": "67",
+    "text": "You're allowed to take up space in this world, and in my heart too.",
+    "color": "note-color-2",
+    "tilt": "note-tilt-2"
+  },
+  {
+    "id": "68",
+    "text": "My heart does a small happy dance when you text me.",
+    "color": "note-color-3",
+    "tilt": "note-tilt-3"
+  },
+  {
+    "id": "69",
+    "text": "Happiness looks good on you. I hope you wear it more often.",
+    "color": "note-color-4",
+    "tilt": "note-tilt-4"
+  },
+  {
+    "id": "70",
+    "text": "Have I told you today that you're pretty? You are.",
+    "color": "note-color-0",
+    "tilt": "note-tilt-0"
+  },
+  {
+    "id": "71",
+    "text": "I hope someone gives you flowers today, and if nobody does, imagine I did.",
+    "color": "note-color-1",
+    "tilt": "note-tilt-1"
+  },
+  {
+    "id": "72",
+    "text": "Philosophers spent their whole lives asking what the meaning of life is. I think it's good people and good food.",
+    "color": "note-color-2",
+    "tilt": "note-tilt-2"
+  },
+  {
+    "id": "73",
+    "text": "You're made of stardust and sugar, in my opinion.",
+    "color": "note-color-3",
+    "tilt": "note-tilt-3"
+  },
+  {
+    "id": "74",
+    "text": "I want to be there for the boring days too, not only the big ones.",
+    "color": "note-color-4",
+    "tilt": "note-tilt-4"
+  },
+  {
+    "id": "75",
+    "text": "Home is wherever you feel safe. I hope I'm one of those places for you.",
+    "color": "note-color-0",
+    "tilt": "note-tilt-0"
+  },
+  {
+    "id": "76",
+    "text": "You have so much love to give and I hope the right people receive it.",
+    "color": "note-color-1",
+    "tilt": "note-tilt-1"
+  },
+  {
+    "id": "77",
+    "text": "I read somewhere that the best thing to hold in a storm is each other. Hold on to me.",
+    "color": "note-color-2",
+    "tilt": "note-tilt-2"
+  },
+  {
+    "id": "78",
+    "text": "If I got a tulip every time I thought of you, My city name will become tulipgarh",
+    "color": "note-color-3",
+    "tilt": "note-tilt-3"
+  },
+  {
+    "id": "79",
+    "text": "And it goes away when i talk to you",
+    "color": "note-color-4",
+    "tilt": "note-tilt-4"
+  },
+  {
+    "id": "80",
+    "text": "Drink some water, sweetheart. I'll wait.",
+    "color": "note-color-0",
+    "tilt": "note-tilt-0"
+  },
+  {
+    "id": "81",
+    "text": "Not everything needs a reason. I just like talking to you.",
+    "color": "note-color-1",
+    "tilt": "note-tilt-1"
+  },
+  {
+    "id": "82",
+    "text": "Whenever you feel low, remember I look forward to your messages.",
+    "color": "note-color-2",
+    "tilt": "note-tilt-2"
+  },
+  {
+    "id": "83",
+    "text": "Forever is a big word, but I like using it with you.",
+    "color": "note-color-3",
+    "tilt": "note-tilt-3"
+  },
+  {
+    "id": "84",
+    "text": "I'm going to be annoying about this: you deserve good things.",
+    "color": "note-color-4",
+    "tilt": "note-tilt-4"
+  },
+  {
+    "id": "85",
+    "text": "My day feels incomplete without a message from you.",
+    "color": "note-color-0",
+    "tilt": "note-tilt-0"
+  },
+  {
+    "id": "86",
+    "text": "One day I'll finally hug you and you'll have to tolerate it.",
+    "color": "note-color-1",
+    "tilt": "note-tilt-1"
+  },
+  {
+    "id": "87",
+    "text": "When I have a bad day I think of you and it gets less bad.",
+    "color": "note-color-2",
+    "tilt": "note-tilt-2"
+  },
+  {
+    "id": "88",
+    "text": "Even the moon takes breaks. You can too.",
+    "color": "note-color-3",
+    "tilt": "note-tilt-3"
+  },
+  {
+    "id": "89",
+    "text": "You make my world a little less lonely.",
+    "color": "note-color-4",
+    "tilt": "note-tilt-4"
+  },
+  {
+    "id": "90",
+    "text": "If I ever get rich, the first thing I'm buying is a huge box of all your favourite sweets.",
+    "color": "note-color-0",
+    "tilt": "note-tilt-0"
+  },
+  {
+    "id": "91",
+    "text": "If I could keep one thing forever, it would be your drawings (i have them all bwahah)",
+    "color": "note-color-1",
+    "tilt": "note-tilt-1"
+  },
+  {
+    "id": "92",
+    "text": "I'd tell you \"you're doing great\" every hour if I could. Cause you really are.",
+    "color": "note-color-2",
+    "tilt": "note-tilt-2"
+  },
+  {
+    "id": "93",
+    "text": "You're my favourite person to be stubborn with.",
+    "color": "note-color-3",
+    "tilt": "note-tilt-3"
+  },
+  {
+    "id": "94",
+    "text": "Honestly, you're the best thing that happened to me this life.",
+    "color": "note-color-4",
+    "tilt": "note-tilt-4"
+  },
+  {
+    "id": "95",
+    "text": "You don't have to be perfect for me. You're already my favourite. (is that what makes you so perfect!)",
+    "color": "note-color-0",
+    "tilt": "note-tilt-0"
+  },
+  {
+    "id": "96",
+    "text": "I hope something makes you smile for no reason today.",
+    "color": "note-color-1",
+    "tilt": "note-tilt-1"
+  },
+  {
+    "id": "97",
+    "text": "You can lean on me. I'm sturdier than I look.",
+    "color": "note-color-2",
+    "tilt": "note-tilt-2"
+  },
+  {
+    "id": "98",
+    "text": "Look at the sky today. It's showing off for you.",
+    "color": "note-color-3",
+    "tilt": "note-tilt-3"
+  },
+  {
+    "id": "99",
+    "text": "Some people feel like home. You're the one.",
+    "color": "note-color-4",
+    "tilt": "note-tilt-4"
+  },
+  {
+    "id": "100",
+    "text": "You are not too much for me. You never were.",
+    "color": "note-color-0",
+    "tilt": "note-tilt-0"
+  },
+  {
+    "id": "101",
+    "text": "I'd share my last gummy bear with you. Maybe the second last, let me think about it.",
+    "color": "note-color-1",
+    "tilt": "note-tilt-1"
+  },
+  {
+    "id": "102",
+    "text": "I get a little happy every time I see you typing.",
+    "color": "note-color-2",
+    "tilt": "note-tilt-2"
+  },
+  {
+    "id": "103",
+    "text": "Little reminder that someone far away thinks about you every single day. (*minute)",
+    "color": "note-color-3",
+    "tilt": "note-tilt-3"
+  },
+  {
+    "id": "104",
+    "text": "Whatever happens, you still have me. That part doesn't expire.",
+    "color": "note-color-4",
+    "tilt": "note-tilt-4"
+  },
+  {
+    "id": "105",
+    "text": "Your heart is soft and I hope the world is careful with it.",
+    "color": "note-color-0",
+    "tilt": "note-tilt-0"
+  },
+  {
+    "id": "106",
+    "text": "When you're sad I'm sad too, so please be happy for my sake.",
+    "color": "note-color-1",
+    "tilt": "note-tilt-1"
+  },
+  {
+    "id": "107",
+    "text": "Im waiting...",
+    "color": "note-color-2",
+    "tilt": "note-tilt-2"
+  },
+  {
+    "id": "108",
+    "text": "I like that you care about little things. They're the big things.",
+    "color": "note-color-3",
+    "tilt": "note-tilt-3"
+  },
+  {
+    "id": "109",
+    "text": "You're the kind of person people write letters for.",
+    "color": "note-color-4",
+    "tilt": "note-tilt-4"
+  },
+  {
+    "id": "110",
+    "text": "If love is a garden, you're the tulip I'd water every day.",
+    "color": "note-color-0",
+    "tilt": "note-tilt-0"
+  },
+  {
+    "id": "111",
+    "text": "You are my favourite notification, sweetheart.",
+    "color": "note-color-1",
+    "tilt": "note-tilt-1"
+  },
+  {
+    "id": "112",
+    "text": "You can say no. You can say not now. You can say I'm tired. I'll understand every time.",
+    "color": "note-color-2",
+    "tilt": "note-tilt-2"
+  },
+  {
+    "id": "113",
+    "text": "You've survived every bad day so far. That's a perfect record.",
+    "color": "note-color-3",
+    "tilt": "note-tilt-3"
+  },
+  {
+    "id": "114",
+    "text": "New rule: nobody is allowed to make you cry, including me. I'm working on it.",
+    "color": "note-color-4",
+    "tilt": "note-tilt-4"
+  },
+  {
+    "id": "115",
+    "text": "They say home isn't a place, it's a feeling. You feel like that to me.",
+    "color": "note-color-0",
+    "tilt": "note-tilt-0"
+  },
+  {
+    "id": "116",
+    "text": "I believe in you even when you don't.",
+    "color": "note-color-1",
+    "tilt": "note-tilt-1"
+  },
+  {
+    "id": "117",
+    "text": "You have a heart that deserves a pretty life.",
+    "color": "note-color-2",
+    "tilt": "note-tilt-2"
+  },
+  {
+    "id": "118",
+    "text": "Meeting you was the best gift life gave me without it being my birthday.",
+    "color": "note-color-3",
+    "tilt": "note-tilt-3"
+  },
+  {
+    "id": "119",
+    "text": "Somewhere there's a day where I'm sitting next to you with a bowl of rass malayi. I'm working on getting there.",
+    "color": "note-color-4",
+    "tilt": "note-tilt-4"
+  },
+  {
+    "id": "120",
+    "text": "You make normal days feel like something I want to remember.",
+    "color": "note-color-0",
+    "tilt": "note-tilt-0"
+  },
+  {
+    "id": "121",
+    "text": "Do something nice for yourself today, even something tiny.",
+    "color": "note-color-1",
+    "tilt": "note-tilt-1"
+  },
+  {
+    "id": "122",
+    "text": "I love you. Just saying, in case you forgot.",
+    "color": "note-color-2",
+    "tilt": "note-tilt-2"
+  },
+  {
+    "id": "123",
+    "text": "Let's get so old that we forget each other's names and still text every morning.",
+    "color": "note-color-3",
+    "tilt": "note-tilt-3"
+  },
+  {
+    "id": "124",
+    "text": "You never have to earn my love. It's already yours.",
+    "color": "note-color-4",
+    "tilt": "note-tilt-4"
+  },
+  {
+    "id": "125",
+    "text": "Take your time. Nobody is racing you.",
+    "color": "note-color-0",
+    "tilt": "note-tilt-0"
+  },
+  {
+    "id": "126",
+    "text": "You look good in whatever you wear. That's just a fact.",
+    "color": "note-color-1",
+    "tilt": "note-tilt-1"
+  },
+  {
+    "id": "127",
+    "text": "Every beautiful thing in my day reminds me of you.",
+    "color": "note-color-2",
+    "tilt": "note-tilt-2"
+  },
+  {
+    "id": "128",
+    "text": "Don't stay up too late. I need you well rested so you can annoy me tomorrow. (its a request)",
+    "color": "note-color-3",
+    "tilt": "note-tilt-3"
+  },
+  {
+    "id": "129",
+    "text": "Your voice is something I'd pay money to hear.",
+    "color": "note-color-4",
+    "tilt": "note-tilt-4"
+  },
+  {
+    "id": "130",
+    "text": "I'm proud of you for getting up again today. That counts for a lot.",
+    "color": "note-color-0",
+    "tilt": "note-tilt-0"
+  },
+  {
+    "id": "131",
+    "text": "I'd pick you for my team in every game, even the ones you're bad at.",
+    "color": "note-color-1",
+    "tilt": "note-tilt-1"
+  },
+  {
+    "id": "132",
+    "text": "If you ever doubt yourself, ask me. I have a long list.",
+    "color": "note-color-2",
+    "tilt": "note-tilt-2"
+  },
+  {
+    "id": "133",
+    "text": "I think you're really brave.",
+    "color": "note-color-3",
+    "tilt": "note-tilt-3"
+  },
+  {
+    "id": "134",
+    "text": "Hey you, yes you, I like you a lot.",
+    "color": "note-color-4",
+    "tilt": "note-tilt-4"
+  },
+  {
+    "id": "135",
+    "text": "Eat first, worry later. This is a rule I just made.",
+    "color": "note-color-0",
+    "tilt": "note-tilt-0"
+  },
+  {
+    "id": "136",
+    "text": "You have a beautiful mind. Use it to dream big.",
+    "color": "note-color-1",
+    "tilt": "note-tilt-1"
+  },
+  {
+    "id": "137",
+    "text": "I'd give you my umbrella and happily get wet myself.",
+    "color": "note-color-2",
+    "tilt": "note-tilt-2"
+  },
+  {
+    "id": "138",
+    "text": "If you read this far, I love you. If you skipped to the end, I still love you.",
+    "color": "note-color-3",
+    "tilt": "note-tilt-3"
   }
 ]

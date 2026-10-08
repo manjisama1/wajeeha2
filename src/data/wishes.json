@@ -1,10 +1,506 @@
 [
   {
     "id": "0",
-    "message": "I hope this year gives you soft mornings, good sweets, and so many reasons to smile."
+    "message": "i hope you always be protected from the eyes that secretly aren't happy to see you win."
   },
   {
     "id": "1",
-    "message": "My wish is simple: that you always remember how loved you are."
+    "message": "hope every wish you make at midnight comes true before breakfast"
+  },
+  {
+    "id": "2",
+    "message": "i hope you always have a space where you feel completely at home"
+  },
+  {
+    "id": "3",
+    "message": "i hope you stop being shy about asking for what you want, you deserve it"
+  },
+  {
+    "id": "4",
+    "message": "i hope i get to share a cup of coffee brewed by you someday"
+  },
+  {
+    "id": "5",
+    "message": "i hope your peace of mind lasts longer than just a good day"
+  },
+  {
+    "id": "6",
+    "message": "i hope you can always tell me what's wrong without being scared i'll push back"
+  },
+  {
+    "id": "7",
+    "message": "i hope you find sunshine even on the cloudiest day"
+  },
+  {
+    "id": "8",
+    "message": "i hope the people around you understand you someday without you having to explain"
+  },
+  {
+    "id": "9",
+    "message": "i hope you always find a dress that makes you feel as good as your favourite one did"
+  },
+  {
+    "id": "10",
+    "message": "i hope the sweetest part of your birthday is hearing from the people who love you most"
+  },
+  {
+    "id": "11",
+    "message": "i hope a tulip blooms wherever you stand, october or not"
+  },
+  {
+    "id": "12",
+    "message": "hope there's a mooncake on your plate and a full moon over your head"
+  },
+  {
+    "id": "13",
+    "message": "i hope your kindness gets noticed even by the people who pretend not to see it"
+  },
+  {
+    "id": "14",
+    "message": "may every sunrise remind you how far you've come"
+  },
+  {
+    "id": "15",
+    "message": "i hope you always have the freedom to buy what you like, wear what you like and go where you like"
+  },
+  {
+    "id": "16",
+    "message": "every 2am in your life should have someone to talk to, and i hope it's always me"
+  },
+  {
+    "id": "17",
+    "message": "i hope you get understood the first time you say something"
+  },
+  {
+    "id": "18",
+    "message": "may every goodbye with you be followed by a quick 'i'm back'"
+  },
+  {
+    "id": "19",
+    "message": "i hope you never have to hold back your anger just to look calm and mannered"
+  },
+  {
+    "id": "20",
+    "message": "i never want to make you wonder again whether i want you around. i do"
+  },
+  {
+    "id": "21",
+    "message": "please take care of yourself a lot"
+  },
+  {
+    "id": "22",
+    "message": "may you always have a bag of gummy bears when you need one"
+  },
+  {
+    "id": "23",
+    "message": "may the people who care about you be allowed into your heart, and the ones who don't stay out"
+  },
+  {
+    "id": "24",
+    "message": "i hope the animals you meet always choose to sit next to you"
+  },
+  {
+    "id": "25",
+    "message": "do whatever makes you happy, again and again and again"
+  },
+  {
+    "id": "26",
+    "message": "i hope talking more stops being a big wish and just becomes an everyday thing for us"
+  },
+  {
+    "id": "27",
+    "message": "i hope you find the book or movie that helps you say everything you want to say, in any language"
+  },
+  {
+    "id": "28",
+    "message": "may you always get to travel peacefully"
+  },
+  {
+    "id": "29",
+    "message": "every drawing you make for someone deserves a wall to live on"
+  },
+  {
+    "id": "30",
+    "message": "i hope we keep moving forward together, one small step at a time, just like you said"
+  },
+  {
+    "id": "31",
+    "message": "the dreams you've been longing for for centuries, i hope they finally come true"
+  },
+  {
+    "id": "32",
+    "message": "and i hope we keep making new chats that are even better than the old ones"
+  },
+  {
+    "id": "33",
+    "message": "may your birthday week last way longer than your exam week"
+  },
+  {
+    "id": "34",
+    "message": "i hope this year's gifts are things you can hold, wear and keep"
+  },
+  {
+    "id": "35",
+    "message": "i hope you always have someone who says 'i don't want to go there if you're not there'"
+  },
+  {
+    "id": "36",
+    "message": "i hope your mornings start with something nourishing, like honey"
+  },
+  {
+    "id": "37",
+    "message": "may every eid and family gathering you go to be full of joy"
+  },
+  {
+    "id": "38",
+    "message": "i hope your birthday cake has every flavour you love"
+  },
+  {
+    "id": "39",
+    "message": "i hope you're as good to yourself as you are to everyone else"
+  },
+  {
+    "id": "40",
+    "message": "i hope you're only ever cared for, never pitied"
+  },
+  {
+    "id": "41",
+    "message": "i hope you find every sticker you've been searching for, and the one you couldn't find comes from me"
+  },
+  {
+    "id": "42",
+    "message": "i hope luck shows up before you even ask for it"
+  },
+  {
+    "id": "43",
+    "message": "eat all the sweets you want today, no guilt allowed on your birthday"
+  },
+  {
+    "id": "44",
+    "message": "i hope your jar of hairpins never gets full so you always have room for a new one"
+  },
+  {
+    "id": "45",
+    "message": "i hope every place you move to feels better than the last"
+  },
+  {
+    "id": "46",
+    "message": "i hope someone finally gives you the princess treatment you deserve"
+  },
+  {
+    "id": "47",
+    "message": "i wish you peace of mind, truly"
+  },
+  {
+    "id": "48",
+    "message": "i hope winter is always gentle with you"
+  },
+  {
+    "id": "49",
+    "message": "always wear exactly what makes you feel beautiful"
+  },
+  {
+    "id": "50",
+    "message": "i hope you're always someone's sun, moon and all the stars, because you're mine"
+  },
+  {
+    "id": "51",
+    "message": "i hope tulips keep finding their way to you"
+  },
+  {
+    "id": "52",
+    "message": "i hope you always find the hairpin that holds your hair perfectly in place all day"
+  },
+  {
+    "id": "53",
+    "message": "i hope your hands never get tired of making beautiful things"
+  },
+  {
+    "id": "54",
+    "message": "i hope the kids in your family learn kindness from you"
+  },
+  {
+    "id": "55",
+    "message": "i hope you get a compliment today that you remember for years"
+  },
+  {
+    "id": "56",
+    "message": "i hope every haircut turns out better than you expected and your hair grows as long as you wish"
+  },
+  {
+    "id": "57",
+    "message": "i hope all your hard work this year surprises even you"
+  },
+  {
+    "id": "58",
+    "message": "i hope your birthday glows as bright as a mid-autumn moon"
+  },
+  {
+    "id": "59",
+    "message": "i hope you see a peacock, an owl and a deer all in one single day"
+  },
+  {
+    "id": "60",
+    "message": "be my sunshine always, and i'll always be the one who notices when your day gets heavy"
+  },
+  {
+    "id": "61",
+    "message": "i hope i get to take care of you the way you said you'd take care of me when we meet"
+  },
+  {
+    "id": "62",
+    "message": "i hope every fruit you pick tastes like it came from your favourite tree"
+  },
+  {
+    "id": "63",
+    "message": "i hope all the little things you've been keeping for me reach me in person one day"
+  },
+  {
+    "id": "64",
+    "message": "i hope your body is kind to you this year and you get every reason to forget the way to the hospital"
+  },
+  {
+    "id": "65",
+    "message": "i hope you're always proud of who you're becoming"
+  },
+  {
+    "id": "66",
+    "message": "i hope you find your favourite colour in unexpected places"
+  },
+  {
+    "id": "67",
+    "message": "i hope you have exactly the outfits you want and never feel the need for more"
+  },
+  {
+    "id": "68",
+    "message": "hope your glasses always suit you and you feel like a total baddie in them or without them"
+  },
+  {
+    "id": "69",
+    "message": "may our fights get shorter and our makeups sweeter"
+  },
+  {
+    "id": "70",
+    "message": "i really hope i get to say happy birthday to you in person one day"
+  },
+  {
+    "id": "71",
+    "message": "may every police car you pass see a model citizen, and may your student card always be in your bag"
+  },
+  {
+    "id": "72",
+    "message": "i hope the people who love you never get hurt, not even by accident"
+  },
+  {
+    "id": "73",
+    "message": "i hope every place you travel to is as pretty as your pictures of it"
+  },
+  {
+    "id": "74",
+    "message": "i hope you always trust your instincts about people, and are right every time"
+  },
+  {
+    "id": "75",
+    "message": "you'll always be the tulip of every month to me"
+  },
+  {
+    "id": "76",
+    "message": "be careful on the roads, okay?"
+  },
+  {
+    "id": "77",
+    "message": "i hope your body is kind to you this year and hospitals are just places you pass by"
+  },
+  {
+    "id": "78",
+    "message": "i hope someone always makes you soup when you're feeling low"
+  },
+  {
+    "id": "79",
+    "message": "i hope the people you take care of always take care of you back"
+  },
+  {
+    "id": "80",
+    "message": "i hope our friendship is never 'restricted' and that you see my weird side and love it too"
+  },
+  {
+    "id": "81",
+    "message": "i hope the time we spend apart feels a little smaller every month"
+  },
+  {
+    "id": "82",
+    "message": "i hope we always feel honoured to be each other's"
+  },
+  {
+    "id": "83",
+    "message": "i hope you're everyone's favourite person, just like you're mine"
+  },
+  {
+    "id": "84",
+    "message": "i hope you get teachers who actually love to teach"
+  },
+  {
+    "id": "85",
+    "message": "i hope you always live somewhere high with an upstairs view you love"
+  },
+  {
+    "id": "86",
+    "message": "i hope our old chats always make you smile when you read them"
+  },
+  {
+    "id": "87",
+    "message": "i want us to visit that old historic place where poets used to gather and old songs still play someday"
+  },
+  {
+    "id": "88",
+    "message": "i hope you feel at home wherever you go"
+  },
+  {
+    "id": "89",
+    "message": "i hope your dreams stay as vivid as the ones you tell me about"
+  },
+  {
+    "id": "90",
+    "message": "keep wishing for the better, and i hope the better always comes to you"
+  },
+  {
+    "id": "91",
+    "message": "may your stubbornness always stay a superpower that guards your boundaries, your dignity and your goals"
+  },
+  {
+    "id": "92",
+    "message": "i hope you see happiness in the eyes of everyone you've ever helped"
+  },
+  {
+    "id": "93",
+    "message": "we're playing doll house someday like you said, and i'll lose gracefully, promise"
+  },
+  {
+    "id": "94",
+    "message": "we're definitely meeting someday, somewhere. you said you'd make sure of it so i'm holding you to it"
+  },
+  {
+    "id": "95",
+    "message": "i hope you always find peace with whatever makes sense to you"
+  },
+  {
+    "id": "96",
+    "message": "i hope you're always as brave as you are kind"
+  },
+  {
+    "id": "97",
+    "message": "i hope you make something this year that you're proud to sign your name on"
+  },
+  {
+    "id": "98",
+    "message": "i hope kheer and rass malayi are on every table you sit at"
+  },
+  {
+    "id": "99",
+    "message": "i hope the things you love stay with you for a long time, even when your liking comes and goes"
+  },
+  {
+    "id": "100",
+    "message": "may 'see you tomorrow' always come true"
+  },
+  {
+    "id": "101",
+    "message": "i hope your voice keeps reaching the people who need to hear it"
+  },
+  {
+    "id": "102",
+    "message": "i hope you always have something to look forward to"
+  },
+  {
+    "id": "103",
+    "message": "hope jungkook keeps making songs that feel like they were made just for you"
+  },
+  {
+    "id": "104",
+    "message": "i hope you have the energy to study when you want to and the rest you need when you don't"
+  },
+  {
+    "id": "105",
+    "message": "i hope the next ten birthdays are each better than this one"
+  },
+  {
+    "id": "106",
+    "message": "i hope lahore always welcomes you with good weather and even better company"
+  },
+  {
+    "id": "107",
+    "message": "i hope you get a long, deep sleep tonight with no alarm in the morning"
+  },
+  {
+    "id": "108",
+    "message": "i hope this birthday is the best one you've ever had"
+  },
+  {
+    "id": "109",
+    "message": "i hope october remembers you every year as its favourite person"
+  },
+  {
+    "id": "110",
+    "message": "i hope someone says 'i wish i could help you' to you every day and really means it"
+  },
+  {
+    "id": "111",
+    "message": "you'll always be my loveliest moonbeam, just so you know"
+  },
+  {
+    "id": "112",
+    "message": "i hope the day comes when everything really is fine"
+  },
+  {
+    "id": "113",
+    "message": "may october 9 be remembered as the day everything started going right"
+  },
+  {
+    "id": "114",
+    "message": "hope you get hiccups every time i miss you, sorry in advance"
+  },
+  {
+    "id": "115",
+    "message": "i hope you're loved even on the days you feel unlovable"
+  },
+  {
+    "id": "116",
+    "message": "never doubt your part okay? it was always good enough, always"
+  },
+  {
+    "id": "117",
+    "message": "i hope i always remember how much you said i mean to you"
+  },
+  {
+    "id": "118",
+    "message": "i hope you always have a place where you don't need to keep up an act"
+  },
+  {
+    "id": "119",
+    "message": "i hope all those 'factors we have to keep in mind' keep getting fewer and fewer"
+  },
+  {
+    "id": "120",
+    "message": "i hope your wish list keeps growing and every single thing on it gets a check mark before we die"
+  },
+  {
+    "id": "121",
+    "message": "i hope the family you dream of is someday as big and warm as your heart"
+  },
+  {
+    "id": "122",
+    "message": "never stop wanting to learn and to know, okay?"
+  },
+  {
+    "id": "123",
+    "message": "i hope you forgive easily and get forgiven even more easily"
+  },
+  {
+    "id": "124",
+    "message": "i hope you get an exam paper where every single question is one you studied"
+  },
+  {
+    "id": "125",
+    "message": "i hope 'best friends till the end of the world' is the truest thing either of us ever said"
   }
 ]

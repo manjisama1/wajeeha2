@@ -1,5 +1,15 @@
 import React from 'react'
-import manji_wajeeha from '/assets/manji/manji_wajeeha.png'
+import manji_wajeeha  from '/assets/manji/manji_wajeeha.png'
+import manji_wajeeha1 from '/assets/manji/manji_wajeeha1.png'
+import manji_wajeeha2 from '/assets/manji/manji_wajeeha2.png'
+import manji_wajeeha3 from '/assets/manji/manji_wajeeha3.png'
+
+const PHOTOS = [
+    { src: manji_wajeeha,  alt: 'Manji and Wajeeha',   tilt: '-2deg',  caption: '♡' },
+    { src: manji_wajeeha1, alt: 'Manji and Wajeeha 1',  tilt: '1.5deg', caption: '♡' },
+    { src: manji_wajeeha2, alt: 'Manji and Wajeeha 2',  tilt: '-1deg',  caption: '♡' },
+    { src: manji_wajeeha3, alt: 'Manji and Wajeeha 3',  tilt: '2deg',   caption: '♡' },
+]
 
 function ThisUs() {
     return (
@@ -11,28 +21,20 @@ function ThisUs() {
                     <h2>This is us.</h2>
                 </div>
             </div>
-            <div className="this-us-layout">
-                {/* big polaroid */}
-                <div className="this-us-polaroid">
-                    <div className="this-us-tape this-us-tape-left" aria-hidden="true" />
-                    <div className="this-us-tape this-us-tape-right" aria-hidden="true" />
-                    <img
-                        src={manji_wajeeha}
-                        alt="Manji and Wajeeha"
-                        className="this-us-img"
-                    />
-                    <p className="this-us-caption">This is us.</p>
-                </div>
 
-                {/* decorative sticky notes around the photo */}
-                <div className="this-us-note this-us-note-a">
-                    <span className="paper-tape" aria-hidden="true" />
-                    you and me ♡
-                </div>
-                <div className="this-us-note this-us-note-b">
-                    <span className="paper-tape" aria-hidden="true" />
-                    us, always ✦
-                </div>
+            <div className="this-us-gallery">
+                {PHOTOS.map((photo, i) => (
+                    <div
+                        key={i}
+                        className="this-us-polaroid"
+                        style={{ transform: `rotate(${photo.tilt})` }}
+                    >
+                        {/* tape strip */}
+                        <div className="this-us-tape" aria-hidden="true" />
+                        <img src={photo.src} alt={photo.alt} className="this-us-img" />
+                        <p className="this-us-caption">{photo.caption}</p>
+                    </div>
+                ))}
             </div>
         </section>
     )

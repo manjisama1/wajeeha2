@@ -211,47 +211,52 @@
 .letter-popup-footer { text-align: center; font-size: 1.5rem; color: rgb(200,120,160); padding: 0.75rem 1rem 1.25rem; }
 
 /* ─── This Is Us ────────────────────────────────────────────────── */
-.this-us-section {}
-.this-us-layout {
-    position: relative;
+.this-us-section { position: relative; }
+
+/* scrollable horizontal photo strip */
+.this-us-gallery {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    padding: 2rem 1rem 3rem;
+    gap: 2rem;
+    padding: 2rem 1rem 3.5rem;
 }
-/* big polaroid */
+
+/* each polaroid */
 .this-us-polaroid {
     position: relative;
     background: rgb(255,253,249);
-    padding: 1rem 1rem 2.5rem;
-    width: min(100%, 34rem);        /* bigger */
-    box-shadow: 5px 12px 0 rgba(110,40,72,0.15), 0 0 0 1px rgba(220,180,205,0.4);
-    transform: rotate(-1.5deg);
+    padding: 0.85rem 0.85rem 2.2rem;
+    width: min(100%, 22rem);
+    box-shadow: 4px 8px 0 rgba(110,40,72,0.13), 0 0 0 1px rgba(220,180,205,0.3);
+    flex-shrink: 0;
 }
 .this-us-img { display: block; width: 100%; height: auto; object-fit: cover; }
 .this-us-caption {
-    display: block; margin-top: 0;
-    padding: 1rem 0.5rem 0.3rem;
+    margin: 0;
+    padding: 0.75rem 0.4rem 0;
     text-align: center;
     font-family: var(--font-hand);
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     color: rgb(100,40,70);
 }
 
-/* tape strips on corners */
+/* tape strip centered on top edge */
 .this-us-tape {
     position: absolute;
-    width: 3.5rem; height: 1.1rem;
-    background: rgba(253,220,238,0.75);
+    width: 3.2rem; height: 1rem;
+    background: rgba(253,220,238,0.8);
     border: 1px solid rgba(234,180,210,0.5);
-    top: -0.55rem;
+    top: -0.5rem;
+    left: 50%;
+    transform: translateX(-50%) rotate(-1deg);
     z-index: 1;
 }
-.this-us-tape-left  { left:  1.5rem; transform: rotate(-3deg); }
-.this-us-tape-right { right: 1.5rem; transform: rotate(4deg); }
 
-/* floating sticky notes around the polaroid */
+/* floating sticky notes — positioned relative to section */
 .this-us-note {
-    position: absolute;
+    position: relative;
+    display: inline-block;
     background: rgb(255,248,230);
     border: 1.5px solid rgb(245,200,120);
     border-radius: 0.4rem;
@@ -260,8 +265,9 @@
     font-size: 1rem;
     color: rgb(120,80,20);
     box-shadow: 2px 4px 0 rgba(0,0,0,0.07);
-    max-width: 8rem;
+    max-width: 9rem;
     line-height: 1.4;
+    margin: 0 1rem 1.5rem;
 }
 .this-us-note .paper-tape {
     display: block;
@@ -270,13 +276,9 @@
     border: 1px solid rgba(240,190,100,0.4);
     margin: 0 auto 0.4rem;
 }
-.this-us-note-a {
-    bottom: 1.5rem; left: -1rem;
-    transform: rotate(-6deg);
-}
+.this-us-note-a { transform: rotate(-4deg); }
 .this-us-note-b {
-    top: 1.5rem; right: -1rem;
-    transform: rotate(5deg);
+    transform: rotate(3deg);
     background: rgb(240,255,245);
     border-color: rgb(140,210,160);
     color: rgb(30,100,60);

@@ -75,7 +75,7 @@ import wishesData from '../data/wishes.json'
                     sectionClassName: "journal-section scroll-mt-24",
                     number: "01",
                     kicker: "first, a tiny cake",
-                    title: "Make a wish for me.",
+                    title: "Make a wish on your Birthday.",
                     content: (
                         <CakeSequence />
                     ),
@@ -104,7 +104,7 @@ import wishesData from '../data/wishes.json'
                 sectionClassName: "journal-section scroll-mt-24",
                 number: "04",
                 kicker: "and finally...",
-                title: "One last little surprise.",
+                title: "One last little gift.",
                 content: (
                     <div className={"surprise-paper relative overflow-hidden p-5 sm:p-8"}>
                         <div className={"absolute -right-10 -top-10 h-44 w-44 rounded-full bg-[#ddd6fe]/70 blur-3xl"}>
@@ -119,7 +119,7 @@ import wishesData from '../data/wishes.json'
                                     Open this when you’re ready.
                                 </h3>
                                 <p className={"mt-3 max-w-xl text-base leading-7 text-[#76546b]"}>
-                                    A tiny PDF scrapbook, tucked here for the end.
+                                    Download this PDF in the end i wrote somthing in it.
                                 </p>
                                 <div className={"mt-6 flex flex-wrap items-center gap-3"}>
                                     <span className={"inline-flex items-center gap-2 rounded-none bg-[#fff0f6] px-4 py-2.5 text-sm font-bold text-[#9d3568]"}>

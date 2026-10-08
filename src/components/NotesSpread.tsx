@@ -12,13 +12,13 @@ function NotesSpread() {
             <div className={"flex flex-col justify-between gap-4 md:flex-row md:items-end"}>
                 <div>
                     <span className={"eyebrow"}>
-                        tiny discoveries
+                        What is in my mind?
                     </span>
                     <h3 className={"section-card-title mt-2"}>
                         Little notes, left around for you
                     </h3>
                     <p className={"mt-2 max-w-xl text-sm leading-6 text-[#76546b]"}>
-                        A few thoughts that felt too sweet to leave in my head. You can add one back.
+                        A few thoughts that felt too sweet to leave in my head.
                     </p>
                 </div>
                 <span className={"font-[family-name:var(--font-hand)] text-xl text-[#9d3568]"}>

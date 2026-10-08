@@ -14,8 +14,8 @@ function LettersSection() {
             </div>
             <div className="letters-board">
                 <p className="letters-intro">
-                    Here are some letters for you.<br />
-                    Open one only when the feeling is actually sitting beside you.
+                    Here are some letters for you. (i will be adding more) <br />
+                    Open one only when you need these, Save these for later no peeking :D.
                 </p>
                 <div className="letters-grid">
                     {lettersData.map((letter) => (
