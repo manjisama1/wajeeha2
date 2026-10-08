@@ -330,34 +330,121 @@
 /* ─── BGM Audio Player ──────────────────────────────────────────── */
 .bgm-player {
     position: fixed;
-    bottom: 1.1rem;
-    right: 1.1rem;
+    bottom: 1.2rem;
+    right: 1.2rem;
     z-index: 300;
+    width: 2.8rem;
+    height: 2.8rem;
     display: flex;
     align-items: center;
-    gap: 0.5rem;
+    justify-content: center;
+    font-size: 1.3rem;
     background: rgba(255,253,249,0.92);
     border: 1.5px solid rgb(234,180,210);
-    border-radius: 999px;
-    padding: 0.35rem 0.85rem 0.35rem 0.45rem;
-    box-shadow: 2px 4px 0 rgba(110,40,72,0.12);
+    border-radius: 50%;
+    box-shadow: 2px 4px 0 rgba(110,40,72,0.13);
     backdrop-filter: blur(4px);
+    cursor: pointer;
+    /* hidden by default */
+    opacity: 0;
+    pointer-events: none;
+    transform: scale(0.85);
+    transition: opacity 0.35s ease, transform 0.35s ease;
+}
+.bgm-player.bgm-player-visible {
+    opacity: 1;
+    pointer-events: auto;
+    transform: scale(1);
+}
+.bgm-player:hover { transform: scale(1.1); }
+
+/* ─── Loading Screen ────────────────────────────────────────────── */
+.loading-screen {
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2rem;
+    background: rgb(255,220,233);
+    /* same pink gingham as the app */
+    background-image:
+        linear-gradient(90deg, rgba(255,255,255,0.25) 50%, transparent 50%),
+        linear-gradient(rgba(255,255,255,0.25) 50%, transparent 50%);
+    background-size: 52px 52px;
+    padding: 2rem;
+    cursor: default;
+    transition: opacity 0.6s ease;
+}
+.loading-screen-exit {
+    opacity: 0;
+    pointer-events: none;
+}
+
+/* Lottie container */
+.loading-lottie {
+    width: min(280px, 70vw);
+    height: min(280px, 70vw);
+    flex-shrink: 0;
+}
+
+/* Title */
+.loading-title {
     font-family: var(--font-hand);
-    font-size: 0.85rem;
-    color: rgb(112,66,89);
-    transition: opacity 0.3s;
+    font-size: 1.6rem;
+    color: rgb(100,40,70);
+    text-align: center;
+    margin: 0;
 }
-.bgm-btn {
-    background: none; border: none; cursor: pointer;
-    font-size: 1.15rem; line-height: 1;
-    padding: 0.15rem 0.2rem;
-    color: rgb(157,53,104);
-    transition: transform 0.15s;
+
+/* Progress bar */
+.loading-bar-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.4rem;
+    width: min(260px, 65vw);
 }
-.bgm-btn:hover { transform: scale(1.15); }
-.bgm-label {
-    max-width: 8rem;
-    white-space: nowrap;
+.loading-bar-track {
+    width: 100%;
+    height: 8px;
+    background: rgba(255,255,255,0.6);
+    border-radius: 999px;
+    border: 1.5px solid rgb(234,180,210);
     overflow: hidden;
-    text-overflow: ellipsis;
+}
+.loading-bar-fill {
+    height: 100%;
+    background: linear-gradient(90deg, rgb(234,140,180), rgb(157,53,104));
+    border-radius: 999px;
+    transition: width 0.3s ease;
+}
+.loading-pct {
+    font-family: var(--font-hand);
+    font-size: 0.9rem;
+    color: rgb(157,53,104);
+}
+
+/* Tap to enter */
+.loading-enter {
+    font-family: var(--font-hand);
+    font-size: 1.1rem;
+    color: rgb(157,53,104);
+    text-align: center;
+    opacity: 0;
+    transform: translateY(6px);
+    transition: opacity 0.4s ease, transform 0.4s ease;
+    margin: 0;
+}
+.loading-enter-visible {
+    opacity: 1;
+    transform: translateY(0);
+    cursor: pointer;
+    animation: loading-pulse 1.6s ease-in-out infinite;
+}
+@keyframes loading-pulse {
+    0%, 100% { opacity: 1; }
+    50%       { opacity: 0.5; }
 }
