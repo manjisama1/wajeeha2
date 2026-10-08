@@ -7,7 +7,7 @@ import notesData from '../data/notes.json'
 
 // Component
 function NotesSpread() {
-    return <section className={"notes-spread"}>
+    return <section id="notes-spread" className={"notes-spread"}>
         <div className={"scrap-card p-5 sm:p-8"}>
             <div className={"flex flex-col justify-between gap-4 md:flex-row md:items-end"}>
                 <div>

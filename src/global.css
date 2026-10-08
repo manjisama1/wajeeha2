@@ -300,3 +300,64 @@
     transition: background 0.15s;
 }
 .pdf-download-btn:hover { background: rgb(91,33,68); }
+
+/* ─── Sticky notes mobile overflow fix ─────────────────────────── */
+/* The notes-grid lives inside .notes-spread which has negative margins.
+   On mobile the tilted notes bleed outside the viewport.
+   Clip the spread container and constrain each note's minimum width. */
+.notes-spread {
+    overflow-x: hidden;   /* stop tilted notes bleeding off-screen */
+}
+.notes-spread .notes-grid {
+    overflow: hidden;     /* same — clip any rotated overflow */
+}
+/* Each note: never shrink below 0 so grid maths stay inside the cell */
+.sticky-note {
+    min-width: 0;
+    box-sizing: border-box;
+    /* reduce tilt on small screens so corners don't clip */
+}
+@media (max-width: 639px) {
+    .note-tilt-0 { transform: rotate(-1deg); }
+    .note-tilt-1 { transform: rotate(0.8deg); }
+    .note-tilt-2 { transform: rotate(-0.4deg); }
+    .note-tilt-3 { transform: rotate(1.2deg); }
+    .note-tilt-4 { transform: rotate(-0.5deg); }
+    /* also clip the outer spread wrapper at the page edge */
+    .notes-spread { margin-left: 0; margin-right: 0; }
+}
+
+/* ─── BGM Audio Player ──────────────────────────────────────────── */
+.bgm-player {
+    position: fixed;
+    bottom: 1.1rem;
+    right: 1.1rem;
+    z-index: 300;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: rgba(255,253,249,0.92);
+    border: 1.5px solid rgb(234,180,210);
+    border-radius: 999px;
+    padding: 0.35rem 0.85rem 0.35rem 0.45rem;
+    box-shadow: 2px 4px 0 rgba(110,40,72,0.12);
+    backdrop-filter: blur(4px);
+    font-family: var(--font-hand);
+    font-size: 0.85rem;
+    color: rgb(112,66,89);
+    transition: opacity 0.3s;
+}
+.bgm-btn {
+    background: none; border: none; cursor: pointer;
+    font-size: 1.15rem; line-height: 1;
+    padding: 0.15rem 0.2rem;
+    color: rgb(157,53,104);
+    transition: transform 0.15s;
+}
+.bgm-btn:hover { transform: scale(1.15); }
+.bgm-label {
+    max-width: 8rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
