@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react'
 import lottie from 'lottie-web'
-import loadingAnimation from '../../public/assets/loading.json'
+import loadingAnimation from '../assets/loading.json'
 
 // All assets that need to be preloaded before the site is shown
 const IMAGE_SRCS = [

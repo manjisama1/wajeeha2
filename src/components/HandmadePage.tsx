@@ -21,7 +21,6 @@ function HandmadePage() {
             <LettersSection />             {/* 03 — Real feelings */}
             <NotesSpread />                {/* tiny notes spread */}
             <ThisUs />                     {/* This is us — after notes */}
-            <JournalSection dataId="3" />  {/* 04 — Surprise / PDF */}
             <ScrapFooter />
         </main>
     )
