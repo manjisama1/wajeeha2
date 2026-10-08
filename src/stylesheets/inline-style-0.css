@@ -746,9 +746,9 @@ button { cursor: pointer; }
 .home-sticky-one { right: 3%; top: 6%; transform: rotate(7deg); }
 .home-sticky-two { bottom: 4%; left: 1%; background: rgb(247, 200, 223); transform: rotate(-7deg); }
 .paper-tape { position: absolute; top: -0.6rem; left: 35%; width: 4.2rem; height: 1rem; background: rgba(255, 255, 255, 0.6); transform: rotate(-2deg); }
-.notes-spread { margin: 1rem -1rem 3rem; }
+.notes-spread { margin: 1rem 0 3rem; }
 .notes-spread .scrap-card { border-width: 2px 0px; border-right-style: initial; border-left-style: initial; border-right-color: initial; border-left-color: initial; border-image: initial; border-top-style: dashed; border-top-color: rgb(189, 112, 143); border-bottom-style: dashed; border-bottom-color: rgb(189, 112, 143); border-radius: 0px; background: rgba(255, 244, 248, 0.35); box-shadow: none; }
-.notes-spread .notes-grid { transform: rotate(-0.4deg); }
+.notes-spread .notes-grid { /* no whole-grid rotation — individual note tilts are enough */ }
 .journal-section { margin-top: 5rem; }
 .journal-heading { display: flex; align-items: flex-start; gap: 0.8rem; margin-bottom: 1.25rem; }
 .journal-number { padding-top: 0.2rem; color: rgb(157, 53, 104); font-family: var(--font-hand); font-size: 1.7rem; transform: rotate(-8deg); }
@@ -766,6 +766,7 @@ button { cursor: pointer; }
 .note-color-1 { background: rgb(247, 200, 223); }
 .note-color-2 { background: rgb(215, 240, 217); }
 .note-color-3 { background: rgb(221, 212, 239); }
+.note-color-4 { background: rgb(255, 218, 185); }
 .note-tilt-0 { transform: rotate(-2deg); }
 .note-tilt-1 { transform: rotate(1.6deg); }
 .note-tilt-2 { transform: rotate(-0.7deg); }

@@ -302,20 +302,15 @@
 .pdf-download-btn:hover { background: rgb(91,33,68); }
 
 /* ─── Sticky notes mobile overflow fix ─────────────────────────── */
-/* The notes-grid lives inside .notes-spread which has negative margins.
-   On mobile the tilted notes bleed outside the viewport.
-   Clip the spread container and constrain each note's minimum width. */
 .notes-spread {
-    overflow-x: hidden;   /* stop tilted notes bleeding off-screen */
+    overflow-x: hidden;
 }
 .notes-spread .notes-grid {
-    overflow: hidden;     /* same — clip any rotated overflow */
+    overflow: hidden;
 }
-/* Each note: never shrink below 0 so grid maths stay inside the cell */
 .sticky-note {
     min-width: 0;
     box-sizing: border-box;
-    /* reduce tilt on small screens so corners don't clip */
 }
 @media (max-width: 639px) {
     .note-tilt-0 { transform: rotate(-1deg); }
@@ -323,8 +318,6 @@
     .note-tilt-2 { transform: rotate(-0.4deg); }
     .note-tilt-3 { transform: rotate(1.2deg); }
     .note-tilt-4 { transform: rotate(-0.5deg); }
-    /* also clip the outer spread wrapper at the page edge */
-    .notes-spread { margin-left: 0; margin-right: 0; }
 }
 
 /* ─── BGM Audio Player ──────────────────────────────────────────── */
