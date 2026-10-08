@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react'
 import lottie from 'lottie-web'
+import loadingAnimation from '../../public/assets/loading.json'
 
 // All assets that need to be preloaded before the site is shown
 const IMAGE_SRCS = [
@@ -41,11 +42,11 @@ function LoadingScreen({ onDone }: Props) {
     useEffect(() => {
         if (!lottieRef.current) return
         const anim = lottie.loadAnimation({
-            container: lottieRef.current,
-            renderer:  'svg',
-            loop:      true,
-            autoplay:  true,
-            path:      '/assets/loading.json',
+            container:     lottieRef.current,
+            renderer:      'svg',
+            loop:          true,
+            autoplay:      true,
+            animationData: loadingAnimation,   // bundled — no network fetch
         })
         return () => anim.destroy()
     }, [])
